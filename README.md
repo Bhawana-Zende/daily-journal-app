@@ -19,7 +19,7 @@ A simple, minimalistic daily journaling web app built with vanilla HTML, CSS, an
 
 ## Live Demo
 
-Visit the live app: [Your GitHub Pages URL will go here]
+Visit the live app: [https://bhawana-zende.github.io/daily-journal-app/]
 
 ## Local Development
 
