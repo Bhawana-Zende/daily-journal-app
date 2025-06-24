@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Daily Journal ✨</h1>
+        </header>
+
+        <main>
+            <!-- Streak Counter -->
+            <div class="streak-counter">
+                <span id="streak-display">Current streak: 0 days</span>
+            </div>
+
+            <!-- Daily Prompt -->
+            <div class="prompt-section">
+                <h2>Today's Prompt:</h2>
+                <p id="daily-prompt"></p>
+            </div>
+
+            <!-- Journal Entry Form -->
+            <div class="journal-section">
+                <label for="journal-entry">Write your thoughts:</label>
+                <textarea 
+                    id="journal-entry" 
+                    placeholder="Start writing your journal entry here..."
+                    rows="8"
+                ></textarea>
+                
+                <button id="submit-btn" type="button">Save Entry</button>
+            </div>
+
+            <!-- Success Message -->
+            <div id="success-message" class="success-message hidden">
+                <span id="success-emoji"></span>
+                <span id="success-text">Entry saved!</span>
+            </div>
+
+            <!-- Previous Entries -->
+            <div class="previous-entries">
+                <h3>Previous Entries</h3>
+                <div id="entries-list"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
